@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="new.css">-->
+    <style>
+        a:hover{
+             color:red;
+
+        }
+        a:active{
+            color: blue;
+            
+        }
+        a:link{
+            color: darkgreen;
+
+        }
+        a:visited{  
+            color: aqua;
+        }
+
+      .class4{
+        
+        background-image: url(data:image/jpeg;base64,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);
+      
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-position: left ;
+        background-size: 300px;
+  
+    } 
+
+       .row1{  
+background-image: url(https://tse4.mm.bing.net/th/id/OIP.7s3WGxpeJiZbbSo7p7CKGAHaFU?w=232&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+           }
+     .row2{
+            background-image: url(https://tse1.mm.bing.net/th/id/OIP.mH83FORryP-dmNGRBSPP-AAAAA?w=300&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+           }
+        .row3{
+            background-image: url(https://tse2.mm.bing.net/th/id/OIP.87BT2kUWaMTd8_QjIvF_LgAAAA?w=315&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+           }
+    </style>
+
+
+
+</head>
+<body>
+    <h1> New css</h1>
+    <h1>Cascading style sheet</h1>
+    <h2 id="id1"> second css</h2>
+<h1 class="class1"> first css</h1>
+
+<a href="https://www.bing.com/ck/a?!&&p=124088ce8c45121dJmltdHM9MTcxOTI3MzYwMCZpZ3VpZD0yYTcyNzBkMS1hMTExLTYwMWUtMmE1OS02NDQ5YTBjMzYxYTYmaW5zaWQ9NTQ3Mw&ptn=3&ver=2&hsh=3&fclid=2a7270d1-a111-601e-2a59-6449a0c361a6&psq=ronaldo&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ3Jpc3RpYW5vX1JvbmFsZG8&ntb=1">
+    click me</a> <br>
+    <br>
+    <p class="class4"> Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sed rem accusamus similique totam hic tenetur excepturi velit? Dolor id voluptatem placeat laborum ducimus quod!
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, corrupti? Sequi officia modi voluptates amet quibusdam quo! Consequuntur a, beatae mollitia ipsam numquam cum? Nam, nemo. Molestias tempora quidem cum consectetur culpa? Distinctio sint impedit quam eveniet in! Aliquid unde distinctio nesciunt saepe quibusdam nisi tempora rem molestias error provident!
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nam officiis ex porro, natus nostrum necessitatibus nulla voluptate deserunt nesciunt quisquam odio vero, mollitia aperiam autem at, dolore quasi eos magnam corporis numquam omnis! Fuga temporibus suscipit esse similique illum necessitatibus officia magni, provident quisquam aperiam hic nam quod pariatur?
+
+ 
+    </p>
+
+
+<table border="10"; cellpadding="20",cellspacing="20", style="border-collapse:collapse">
+    <tr class="row1">
+        <th>First</th>
+        <th> second</th>
+        <th> third</th>
+        <th> fourth</th>
+    </tr>
+    <tr class="row2">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr class="row3">
+    <tr><td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    </tr>
+    <tr class="row4">
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+</table>
+
+<marquee dir="ltr"> Lorem ipsum dolor sit amet.</marquee>
+
+</html>
